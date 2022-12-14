@@ -72,9 +72,10 @@ header .navbar.animate {
 /* hero */
 
 #hero {
-    min-height: 100vh;
+    min-height: 70vh;
     line-height: 2rem;
     max-width: 100%;
+    overflow: auto;
 }
 #hero .content.animate {
     animation: fade-left 1s ease-out;
@@ -193,8 +194,6 @@ header .navbar.animate {
 #hero .hero-content > a:hover::after, #hero .hero-content > a:focus::after, #hero .hero-content > a:active::after {
     width: 100%;
 }
-
-
 
 /* about me */
 #about h3 {
@@ -519,6 +518,7 @@ header .navbar.animate {
 
 #contact h3 {
     color: var(--text-secondary-color) !important;
+    font-family: "roboto";
 }
 
 #contact .btn {
@@ -528,6 +528,7 @@ header .navbar.animate {
     border-color: var(--primary-color) !important;
     background-color: var(--secondary-color) !important;
     color: var(--text-color) !important;
+    font-family: "roboto";
 }
 
 #contact .btn:hover {
