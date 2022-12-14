@@ -116,7 +116,7 @@ params:
     intro: "Hi, my name is"
     title: "Harein."
     subtitle: "AdOps but make it fun"
-    content: "I provide holistic knowledge and value to the challenges I sink my teeth into."
+    content: "I like to get thrown in the deep end and learn by doing. Case in point, I built this micro-site in a day and a half with no previous github or front-end experience."
     image: /images/headshot.png
     button:
       enable: true
