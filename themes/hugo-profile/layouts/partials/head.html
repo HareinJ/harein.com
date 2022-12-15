@@ -2,6 +2,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+
+<!-- GTM Code -->
+{{- if eq .Site.Params.gtm_datalayer "basic"}}{{ partial "gtm-datalayer.html" . }}{{ end }}
+{{ if .Site.Params.gtm_id}}{{- partial "gtm-js.html" . -}}{{ end }}
+
 <link rel="icon" href={{ .Site.Params.favicon | default "/fav.png" }} type="image/gif">
 
 <!-- Fonts -->

@@ -1,6 +1,11 @@
 {{- /* theme-toggle is enabled */}}
 {{- if (not .Site.Params.theme.disableThemeToggle | default false) }}
 {{- /* theme is auto */}}
+
+<!-- GTM SECOND CODE SNIPPET -->
+{{ if not .Site.IsServer}}{{ if .Site.Params.gtm_id}}{{ partial "gtm-noscript.html" . }}{{ end }}{{ end }}
+
+
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
