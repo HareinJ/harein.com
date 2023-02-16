@@ -73,8 +73,8 @@ params:
   animate: true
 
   theme:
-    disableThemeToggle: true
-    defaultTheme: "dark" # dark
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -83,10 +83,10 @@ params:
     textAlign: left # default: left
 
   # color preference
-  color:
+  # color:
   #   textColor:
   #   secondaryTextColor:
-     backgroundColor: "#18191a"
+  #   backgroundColor:
   #   secondaryBackgroundColor:
   #   primaryColor:
   #   secondaryColor:
@@ -106,20 +106,20 @@ params:
     brandName: "Harein Jethwani" # Brand name for the brand | default is the title variable
     disableSearch: true
     menus:
-      disableAbout: true
-      disableExperience: true
-      disableEducation: true
-      disableProjects: true
-      disableAchievements: true
-      disableContact: true
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
 
   # Hero
   hero:
     enable: true
     intro: "Hi, my name is"
     title: "Harein."
-    subtitle: "AdOps but make it fun"
-    content: "I like to get thrown in the deep end and learn by doing. Case in point, I built this micro-site in a day and a half with no previous github or front-end experience."
+    subtitle: "Digital Marketing Chameleon"
+    content: "Performance-driven problem solver with a passion for new challenges."
     image: /images/headshot.png
     button:
       enable: true
@@ -143,23 +143,22 @@ params:
 
   # About
   about:
-    enable: false
+    enable: true
     title: "About Me"
-    image: "/images/me.png"
-    content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+    image: "/images/me-2.jpg"
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+    content: |-
+     Hey there! I'm Harein, a self-taught tech enthusiast with a passion for creating practical solutions to my everyday problems.
+
+      I have experience in marketing, design, and project management, and I've worked with clients from a diverse range of industries. I'm a flexible and adaptable problem-solver who thrives in dynamic environments.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are some personal projects I've been working on recently"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "[FCC Web-Dev course](https://www.freecodecamp.org/learn/2022/responsive-web-design/)"
+        - "Developing this site"
+        - "Building a custom sized cable-managed desk"
+        - "Trying the best food in my city"
 
   # Experience
   experience:
@@ -319,6 +318,7 @@ params:
           link: https://django-converter.herokuapp.com
         badges:
           - "Django"
+
           - "Bootstrap"
         links:
           - icon: fab fa-github
@@ -342,23 +342,23 @@ params:
   contact:
     enable: false
     # title: "Custom Name"
-    content: "Get in touch with me! Even if you would just like to send me your worst dad joke"
-    email: hello@harein.com
-    btnName: hello@harein.com
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    email: gurusabarisha@gmail.com
+    btnName: Mail me
 
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: false
-      disableFeaturedImage: false
-    # socialNetworks:
-    #   github: https://github.com
-    #   linkedin: https://linkedin.com
-    #   twitter: https://twitter.com
-    #   instagram: https://instagram.com
-    #   facebook: https://facebook.com
+  # footer:
+  #   recentPosts:
+  #     path: "blogs"
+  #     count: 3
+  #     title: Recent Posts
+  #     enable: false
+  #     disableFeaturedImage: false
+  #   socialNetworks:
+  #     github: https://github.com
+  #     linkedin: https://linkedin.com
+  #     twitter: https://twitter.com
+  #     instagram: https://instagram.com
+  #     facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
