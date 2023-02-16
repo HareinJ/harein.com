@@ -347,7 +347,6 @@ params:
     btnName: hello@harein.com
 
   footer:
-  enable: false
     recentPosts:
       path: "blogs"
       count: 3
