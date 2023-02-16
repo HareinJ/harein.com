@@ -73,8 +73,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: false
+    defaultTheme: "dark" # light
 
   font:
     fontSize: 1rem # default: 1rem
@@ -83,10 +83,10 @@ params:
     textAlign: left # default: left
 
   # color preference
-  # color:
+  color:
   #   textColor:
   #   secondaryTextColor:
-  #   backgroundColor:
+  backgroundColor: "#18191a"
   #   secondaryBackgroundColor:
   #   primaryColor:
   #   secondaryColor:
@@ -342,9 +342,9 @@ params:
   contact:
     enable: false
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
-    btnName: Mail me
+    content: "Get in touch with me! Even if you would just like to send me your worst dad joke"
+    email: hello@harein.com
+    btnName: hello@harein.com
 
   # footer:
   #   recentPosts:
