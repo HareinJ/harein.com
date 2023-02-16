@@ -1,4 +1,4 @@
-<!-- <div class="container py-3" id="recent-posts">
+<div class="container py-3" id="recent-posts">
     {{ if .Site.Params.footer.recentPosts.enable | default false }}
     {{ $recentPostsPath := .Site.Params.footer.recentPosts.path | default "blogs" }}
     {{ $recentPostsCount := .Site.Params.footer.recentPosts.count | default 3 }}
@@ -26,12 +26,12 @@
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">{{ .Date.Format "January 2, 2006" }}</span>
-                    <a href="{{ .RelPermalink }}" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">{{ .Date.Format (.Site.Params.datesFormat.articleRecent | default "January 2, 2006") }}</span>
+                    <a href="{{ .RelPermalink }}" class="float-end btn btn-outline-info btn-sm">{{ .Site.Params.terms.read | default "Read" }}</a>
                 </div>
             </div>
         </div>
         {{ end }}
     </div>
     {{ end }}
-</div> -->
+</div>
