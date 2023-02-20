@@ -13,6 +13,9 @@
   <!-- javascripts -->
   <!-- <script src="/js/jquery-3.6.0.min.js"></script> -->
 
+  <!-- GTM NO Script -->
+  {{ if not .Site.IsServer}}{{ if .Site.Params.gtm_id}}{{ partial "gtm-noscript.html" . }}{{ end }}{{ end }}
+
   {{- partial "sections/header.html" . -}}
   <div id="content">
     {{- block "main" . }}{{- end }}
