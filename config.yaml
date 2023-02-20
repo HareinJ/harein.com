@@ -385,6 +385,3 @@ params:
   use_staging_gtm_environment: true
   gtm_env_param_gtm_auth: GfLCfDp2G8A4jWmbZgOwwQ     # enter `gtm_auth` string here e.g. "dhxfPfIIp62NuQfRTdCd1w". 
   gtm_env_param_gtm_preview: env-3  # enter `gtm_preview` string here e.g. "env-8". Leave blank "" 
-
-  #test build
-  
