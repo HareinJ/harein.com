@@ -118,7 +118,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Harein."
-    subtitle: "Digital Marketing Chameleon at Mindvalley. Hi Anj"
+    subtitle: "Digital Marketing Chameleon"
     content: "Performance-driven problem solver with a passion for new challenges."
     image: /images/headshot.png
     button:
