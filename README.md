@@ -1,6 +1,6 @@
 # Harein.com live build
  
-## Bowerbird test
+
 
 Built using the [Hugo Profile](https://github.com/gurusabarish/hugo-profile)
 

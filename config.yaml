@@ -148,17 +148,21 @@ params:
     image: "/images/me-2.jpg"
 
     content: |-
-     Hey there! I'm Harein, a self-taught tech enthusiast with a passion for creating practical solutions to my everyday problems.
+      Hey there! I'm Harein, a self-taught tech enthusiast with a passion for creating practical solutions to everyday problems. 
 
-      I have experience in marketing, design, and project management, and I've worked with clients from a diverse range of industries. I'm a flexible and adaptable problem-solver who thrives in dynamic environments.
+      Currently, I'm excelling as a performance marketer, harnessing my skills and expertise to drive impactful results. From optimizing campaigns to analyzing data, I thrive in the fast-paced world of digital marketing
+
+      In addition, I have a strong command of tools like Google Sheets and Looker, allowing me to extract valuable insights and make data-driven decisions.
+
+      Adaptability is one of my key strengths. I love staying up-to-date with the latest trends and technologies in the industry, always eager to explore new avenues for growth.
     skills:
       enable: true
       title: "Here are some personal projects I've been working on recently"
       items:
-        - "[FCC Web-Dev course](https://www.freecodecamp.org/learn/2022/responsive-web-design/)"
-        - "Developing this site"
+        - "Building a headless server from an old PC with Ubuntu"
+        - "Adding more content to this website"
         - "Building a custom sized cable-managed desk"
-        - "Trying the best food in my city"
+        - "Re-learning how to play the piano after 10 years"
 
   # Experience
   experience:
